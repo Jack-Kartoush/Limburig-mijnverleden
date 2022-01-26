@@ -1,0 +1,22 @@
+.title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-content{
+    display: inline;
+    padding: 1rem;
+    position: relative;
+    bottom:10rem;
+    
+}
+.title{
+    display: inline;
+  
+    font-weight: 900;
+    color: $black;
+}
+.title span{
+    color:$mazerine-blue;
+}

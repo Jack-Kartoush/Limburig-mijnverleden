@@ -1,0 +1,40 @@
+.Video-section{
+    background:$mazerine-blue;
+    height: 100%;
+    max-width: 100%;
+    
+}
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+   
+    width: 100%;
+}
+.video{
+    width: 60rem;
+    height: 30rem;
+}
+.text{
+    color: $Whitesmock;
+}
+.txt-Foto-conteainer1,
+.txt-Foto-conteainer2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem;
+   
+    padding: 1rem;
+}
+.text-content{
+    max-width: 50%;
+}
+.Over-txt-foto{
+    max-width: 100%;
+}
+.mijnVerleden-foto{
+    width: 350px;
+    margin: 0.5rem;
+}
