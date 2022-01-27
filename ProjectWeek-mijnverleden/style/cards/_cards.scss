@@ -1,0 +1,71 @@
+.card-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    padding: 0.5rem;
+    height: 55vh;
+    width: 100%;
+   
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+   
+    width: 100%;
+    padding: 1rem;
+}
+.card1-content,
+.card2-content{
+    height: 100%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: block;
+  
+    
+}
+.card1,
+.card2{
+    box-shadow: 0 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 300px;
+    background-color: $menu-light;
+  
+}
+.card-title{
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+}
+.card-text{
+    margin: 10px;
+    font-weight: 900;
+    font-family: $text-font;
+}
+.btn-content{
+    display: flex;
+    justify-content: flex-end;
+ 
+    position: relative;
+     top: 3.2rem;
+}
+.btn-content2{
+    display: flex;
+    justify-content: flex-end;
+    
+    position: relative;
+ top: 0.8rem;
+
+}
+
+.btn-begin{
+    
+    padding: 0.5rem;
+   text-align: center;
+}
+.btn-link{
+    text-decoration: none;
+    color: black;
+}
