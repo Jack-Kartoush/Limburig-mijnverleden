@@ -1,18 +1,21 @@
 .card-section{
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
-    padding: 0.5rem;
-    height: 55vh;
+    height: 100%;
     width: 100%;
-   
+position: relative;
+bottom:4rem;
+   padding:1rem ;
+   margin-bottom: 3rem;
+
 }
 .card-container{
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 100%;
-   
+
     width: 100%;
     padding: 1rem;
 }
@@ -48,15 +51,13 @@
     display: flex;
     justify-content: flex-end;
  
-    position: relative;
-     top: 3.2rem;
+  
 }
 .btn-content2{
     display: flex;
     justify-content: flex-end;
     
-    position: relative;
- top: 0.8rem;
+   
 
 }
 

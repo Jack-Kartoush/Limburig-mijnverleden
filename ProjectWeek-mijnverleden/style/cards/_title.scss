@@ -2,18 +2,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    bottom:30rem;
 }
 
 .title-content{
     display: inline;
     padding: 1rem;
-    position: relative;
-    bottom:10rem;
     
 }
 .title{
     display: inline;
-  
     font-weight: 900;
     color: $black;
 }

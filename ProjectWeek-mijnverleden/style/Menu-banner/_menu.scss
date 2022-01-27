@@ -1,13 +1,14 @@
 header{
     display: flex;
     justify-content: flex-end;
-    max-width: 100%;
+    width: 6rem;
     height: 100%;
-    // margin: 10px;
+    float: right;
     z-index: 1;
     top: 0;
     left: 0;
     position: sticky;
+    margin-top: -20rem;
   
 }
 nav .top_menu{

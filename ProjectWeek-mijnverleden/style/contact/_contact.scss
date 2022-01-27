@@ -1,0 +1,57 @@
+.contact-stn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+
+    padding: 1rem;
+}
+.contact-holder{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+   width: 60rem; 
+   max-height: 100%;
+background: $mazerine-blue;
+}
+.snel-contact{
+
+    display: block;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+.contact-inhoud{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+    margin: 1rem;
+    flex-direction: column;
+}
+.btn-contact-submit{
+    padding: 1rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+.btn-contact-submit:hover{
+    background: transparent;
+    color: $Whitesmock;
+    
+    transition: 250ms ease-in-out 250ms;
+}
+.Contact-label{
+    color: $Whitesmock;
+}
+input{
+    padding: 0.5rem;
+}
+h4{
+    color: $Whitesmock;
+    font-size: 1.2rem;
+}
+span{
+    color: $Whitesmock;
+}
