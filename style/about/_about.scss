@@ -1,0 +1,24 @@
+
+
+.about_container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 200px 700px 200px;
+    grid-template-areas:"."
+        "about-inhoud"
+        "about-footer";
+}
+
+.about_inhoud {
+    grid-area: about-inhoud;
+    background-color:#273c75;
+    padding: 20px;
+    color:white;
+    border: 100px solid rgb(88, 88, 175);
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 20px;
+}
+.about_footer {
+    grid-area: about-footer;
+    background-color: gray;
+}
