@@ -1,0 +1,22 @@
+@import "./Variables/var";
+@import "./Menu-banner/menu";
+@import "./Menu-banner/banner";
+@import "./cards/title";
+@import "./cards/cards";
+@import "./video-text/video";
+@import "./Quiz-intro/quiz-intro";
+@import "./footer/footer";
+@import "./Oefening-Quiz/oefen-quiz";
+@import "./contact/contact";
+@import "./About/about";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: $Whitesmock;
+}

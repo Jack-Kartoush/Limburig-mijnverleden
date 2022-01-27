@@ -1,0 +1,28 @@
+.about_container {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 50px 400px 100px;
+    grid-template-areas:". . ."
+        ". about-inhoud .";
+        // background-color: rgb(88, 88, 175);
+        padding: 1rem;
+}
+
+.about_inhoud {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: about-inhoud;
+    background-color:#273c75;
+    padding: 3rem;
+    color:white;
+    // border: 100px solid rgb(88, 88, 175);
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    height: 30rem;
+    clip-path: polygon(4% 37%, 0% 1%, 14% 5%, 22% 2%, 31% 8%, 40% 4%, 51% 6%, 64% 1%, 73% 5%, 99% 1%, 95% 23%, 100% 34%, 100% 49%, 92% 55%, 100% 72%, 92% 80%, 99% 100%, 80% 95%, 60% 100%, 53% 93%, 40% 100%, 33% 95%, 25% 100%, 20% 93%, 0 100%, 6% 74%, 0 58%);
+}
+.about_inhoud ::selection{
+    background-color: $black;
+}
